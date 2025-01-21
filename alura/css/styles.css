@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --letra: "montserrat", sans-serif;
+}
+
+
+h2 {
+    font-weight: bold;
+    color: #464646;
+    font-family: "montserrat", sans-serif;
+}
+
+/* HEADER*/
+
+body {
+    font-family: var(--letra);
+    height: auto;
+    width: 100%;
+    color: #464646;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: sticky;
+    top: 0;
+    border-style:groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #cacaca0a;
+    width:100%;
+    height:88px ;
+    background-color: transparent;
+
+
+}
+
+.logo {
+    margin-top: 100px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.divmenu {
+
+    display: flex;
+    flex-direction: row;
+    border: 5px;
+    border-color: black;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    font-family: 'montserrat' , sans-serif;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+a {
+    display: flex;
+    color: #464646;
+    text-decoration: none;
+}
+
+.cabecera {
+    display: flex;
+    width: 1136px;
+    height: 88px;
+    margin-bottom:100px;
+    position:sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECCION con foto FOTO*/
+
+.divhola {
+    position: relative;
+    width: 1136px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    border-style:inherit;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 4px 14px 0px rgba(214,214,214,1);
+    -moz-box-shadow: 14px 4px 14px 0px rgba(214,214,214,1);
+    box-shadow: 14px 4px 14px 0px rgba(214,214,214,1);
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icons {
+    max-width: 75px;
+    cursor:pointer;
+    filter: grayscale(100%);
+    transition: filter 1s;
+    width: 200px;
+}
+.icons:hover{
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 200px;
+}
+
+.foto {
+    max-width: 330px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.irg {
+    font-size: 42px;
+}
+
+/*SOBRE MI*/
+
+.sobremi {
+    background-color: rgba(189, 189, 189, 0.11);
+    width: 100%;
+    height: 393px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divsobremi {
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1135px;
+    height: 255px;
+    line-height: 19px;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+    /* Skills e hobbies */
+
+.skillhobbies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        position:relative;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 50px;
+        }
+
+
+/* Skills */
+
+.soloskills {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 26px;
+width: 1136px;
+height: 174px;
+position: relative;
+margin-top: 0px;
+justify-content: center;
+overflow-x: scroll;
+}
+
+.soloskills::-webkit-scrollbar {
+    height: 12px;
+}
+
+.soloskills::-webkit-scrollbar-thumb {
+    background-color: rgb(233, 232, 232);
+    border-radius: 5px;
+}
+
+.imgskills {
+    max-width: 120px;
+    cursor:pointer;
+   filter: grayscale(100%);
+    transition: filter 1s;
+     width: 200px;
+     border-style: groove;
+     border-color: #dadada23;
+}
+
+.imghobbies {
+    max-width: auto;
+    cursor:pointer;
+   filter: grayscale(100%);
+    transition: filter 1s;
+     width: 300px;
+     border-style: groove;
+     border-color: #dadada23; 
+}
+
+.imgskills:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 200px;
+}
+
+.imghobbies:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 300px;
+}
+
+.skills {
+  font-size: 36px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.button {
+    background: #4d67f9;
+    padding: 4px 8px;
+    font-size: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.formacion {
+    background-color: rgba(189, 189, 189, 0.11);
+    margin: 50px;
+    font-family: var(--letra);
+    font-size: 30px;
+}
+
+.academias {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.imgacademy{
+    margin: 20px;
+    cursor:pointer;
+   filter: grayscale(100%);
+    transition: filter 1s;
+    border: groove;
+    border-color: #dadada23;
+}
+.imgacademy:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+}
+
+.alura {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.experiencia {
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.experiencia > div {
+	width: 50%;
+	padding: 10px;
+  background: #fff;
+}
+
+.experiencia > div:first-child {
+	margin-right: 20px;
+}
+
+.encriptador {
+    max-width: auto;
+    cursor:pointer;
+   filter: grayscale(100%);
+    transition: filter 1s;
+     width: 800px;
+     border-style: groove;
+     border-color: #dadada23; 
+}
+
+.encriptador:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 800px;
+}
+
+.divbotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.botones {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: #d4d4d4;
+    color:#fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.botones:hover {
+    background-color: #00179996;
+    transition: filter 1s;
+    width: 180px;
+
+}
+
+.juego {
+    max-width: auto;
+    cursor:pointer;
+   filter: grayscale(100%);
+    transition: filter 1s;
+     width: 800px;
+     border-style: groove;
+     border-color: #dadada23; 
+}
+
+.juego:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 800px;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+form input, form textarea, form button {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form textarea {
+    resize: none;
+    height: 100px;
+}
+form button {
+    background-color: #00179996;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.contacto {
+    max-width: auto;
+    cursor:pointer;
+    filter: grayscale(100%);
+    transition: filter 1s;
+     width: 800px;
+     height: 435px;
+     border-style: groove;
+     border-color: #dadada23;
+     position: relative;
+     top: 50px;
+}
+
+.contacto:hover {
+    filter:grayscale(0%);
+    transition: filter 1s;
+    width: 800px;
+}
+
+.footer {
+    padding: 30px;
+    border: none;
+    border-color: #c2c2c2;
+    position: relative;
+    top: 30px;
+    height: 50px;
+
+}
